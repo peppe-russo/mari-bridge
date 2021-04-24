@@ -21,9 +21,6 @@ function run() {
     host = config.get('host').toString();
     port = config.get('port');
 
-    console.log("Host="+host);
-    console.log("Port="+port.toString());
-
     // Create connection
     connection = net.createConnection(port, host);
     connection.on('error', function(error) {
