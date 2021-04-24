@@ -1,14 +1,25 @@
 {
 	"name": "mari-bridge",
 	"displayName": "MariBridge",
-	"description": "",
+	"description": "Run code from you editor directly in Mari",
+	"publisher": "pepperusso",
 	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/peppe-russo/mari-bridge"
+	  },
 	"engines": {
 		"vscode": "^1.55.0"
 	},
 	"categories": [
 		"Other"
 	],
+	"keywords": [
+		"mari",
+		"command",
+		"port"
+	],
+	"icon": "images/icon.png",
 	"activationEvents": [
 		"onCommand:mari-bridge.runInMari",
 		"onStartupFinished"
