@@ -1,7 +1,7 @@
 {
 	"name": "mari-bridge",
 	"displayName": "MariBridge",
-	"description": "Run code from you editor directly in Mari",
+	"description": "Run code from your editor directly in Mari",
 	"publisher": "pepperusso",
 	"version": "0.0.1",
 	"repository": {
