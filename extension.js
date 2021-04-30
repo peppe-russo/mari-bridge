@@ -1,5 +1,5 @@
 const vscode = require('vscode');
-var net = require('net');
+let net = require('net');
 
 /**
  * @param {vscode.ExtensionContext} context
@@ -18,11 +18,11 @@ function activate(context) {
 function run() {
     // Confing values
     const config = vscode.workspace.getConfiguration('mari-bridge');
-    host = config.get('host').toString();
-    port = config.get('port');
+    let host = config.get('host').toString();
+    let port = config.get('port');
 
     // Create connection
-    connection = net.createConnection(port, host);
+    let connection = net.createConnection(port, host);
     connection.on('error', function(error) {
         vscode.window.showErrorMessage("Unable to connect to " + host + ":" + port + "\n" + error.code);
     });
@@ -31,10 +31,10 @@ function run() {
     });
     
     // Get text
-    var editor = vscode.window.activeTextEditor;
-    var selection = editor.selection;
+    let editor = vscode.window.activeTextEditor;
+    let selection = editor.selection;
     
-    var text;
+    let text;
     if (selection.isEmpty)
     {
         text = editor.document.getText();
