@@ -16,5 +16,6 @@ To enable the command port go to `Edit > Preferences > Scripts > Mari Command po
 
 ## Release Notes
 
-### 0.0.1
-Initial release
+## 0.0.2
+
+- Minor bugfixes
