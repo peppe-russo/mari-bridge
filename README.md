@@ -1,5 +1,3 @@
-# mari-bridge README
-
 This extension allows you to run code from Visual Studio Code directly in Mari
 
 ![Demo](images/demo.gif)
@@ -16,6 +14,5 @@ To enable the command port go to `Edit > Preferences > Scripts > Mari Command po
 
 ## Release Notes
 
-## 0.0.2
-
-- Minor bugfixes
+## 0.0.3
+- Reduced required VSCode version to 1.51
